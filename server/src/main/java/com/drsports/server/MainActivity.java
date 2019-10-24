@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+/**
+ * @author vson
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

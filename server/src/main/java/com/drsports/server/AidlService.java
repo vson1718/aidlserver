@@ -13,10 +13,6 @@ import java.util.List;
 
 /**
  * @author vson
- * @date 2019-10-24.
- * Company:上海动博士企业发展有限公司
- * E-mail :13013099535@163.com
- * 项目描述:
  */
 public class AidlService extends Service {
 
