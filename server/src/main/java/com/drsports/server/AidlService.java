@@ -29,7 +29,6 @@ public class AidlService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.d("TAG", "onStartCommand:开始 ");
         return super.onStartCommand(intent, flags, startId);
-
     }
 
     @Nullable

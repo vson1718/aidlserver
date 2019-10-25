@@ -30,9 +30,6 @@ public class MyService extends Service {
     @Override
     public void onCreate() {
         Log.d(TAG, "onCreate: 开始");
-        if (getMainLooper()== Looper.getMainLooper()){
-            Toast.makeText(getBaseContext(), "sssss", Toast.LENGTH_LONG).show();
-        }
         super.onCreate();
     }
 
