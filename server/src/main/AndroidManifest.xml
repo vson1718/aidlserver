@@ -18,7 +18,7 @@
         </activity>
         <service
             android:name=".AidlService"
-            android:exported="true" />
+            android:exported="true"  />
     </application>
 
 </manifest>

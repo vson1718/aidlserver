@@ -41,6 +41,7 @@ public class AidlService extends Service {
     private IBinder binder = new IMyAidlInterface.Stub() {
         @Override
         public void addPerson(Person person) throws RemoteException {
+            Log.d("TAG", person.toString());
             mList.add(person);
         }
 

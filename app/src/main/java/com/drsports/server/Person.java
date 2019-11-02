@@ -47,4 +47,12 @@ public class Person implements Parcelable {
             return new Person[size];
         }
     };
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", grade=" + grade +
+                '}';
+    }
 }
