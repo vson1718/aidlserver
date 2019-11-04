@@ -25,8 +25,8 @@ public class Person implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(name);
         dest.writeInt(grade);
+        dest.writeString(name);
     }
 
     @Override
